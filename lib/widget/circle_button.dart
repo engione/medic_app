@@ -8,7 +8,7 @@ class CircleButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
+    return  TextButton(
       onPressed: () {
         // Действие при нажатии кнопки
       },
@@ -25,7 +25,7 @@ class CircleButton extends StatelessWidget {
         child: CircleAvatar(
           child: Text(
             txt,
-            style: TextStyle(color: Colors.black, fontSize: 24),
+            style: TextStyle(color: Colors.black, fontSize: 24, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Color.fromRGBO(245, 245, 249, 1),
         ),

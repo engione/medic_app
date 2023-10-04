@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medic_app/widget/circle.dart';
 import 'package:medic_app/widget/circle_button.dart';
 
 class SixthPage extends StatelessWidget {
@@ -32,7 +33,21 @@ class SixthPage extends StatelessWidget {
                     color: Colors.grey
                   ),
                 ),
-                SizedBox(height: screenHeight * 0.07,),
+                SizedBox(height: screenHeight * 0.035,),
+                Container(
+                  width: screenWidth * 0.4,
+                  height: screenHeight * 0.1,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Circle(),
+                      Circle(),
+                      Circle(),
+                      Circle()
+                    ],
+                  ),
+                ),
+                SizedBox(height: screenHeight * 0.035,),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -61,9 +76,19 @@ class SixthPage extends StatelessWidget {
                       ],
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        CircleButton(txt: '0')
+                        Container(width: 100, height: 100),
+                        CircleButton(txt: '0'),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          child: IconButton(
+                            iconSize: 30,
+                            onPressed: () {}, 
+                            icon: Icon(Icons.backspace_outlined)
+                          ),
+                        )
                       ],
                     )
                   ],
