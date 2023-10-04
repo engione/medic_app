@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:medic_app/pages/fifth_page.dart';
-import 'package:medic_app/pages/first_page.dart';
 import 'package:medic_app/widget/button.dart';
 import 'package:medic_app/widget/img.dart';
 import 'package:medic_app/widget/text_container.dart';
