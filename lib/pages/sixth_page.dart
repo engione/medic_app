@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:medic_app/widget/button_text.dart';
 import 'package:medic_app/widget/circle.dart';
 import 'package:medic_app/widget/circle_button.dart';
 
 class SixthPage extends StatelessWidget {
 
+  final String btnSkip = 'Пропустить';
   final String info = 'Создайте пароль';
   final String descrip = 'Для защиты ваших персональных данных';
 
@@ -16,7 +18,22 @@ class SixthPage extends StatelessWidget {
           body: Center(
             child: Column(
               children: [
-                SizedBox(height: screenHeight * 0.1,),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Container(
+                      padding: EdgeInsets.only(top: 10, right: 15),
+                      child: ButtonText(
+                        txt: btnSkip, 
+                        width: 0.1, 
+                        height: 0.025, 
+                        backgroundColor: Colors.white, 
+                        colortxt: Colors.blue
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: screenHeight * 0.03,),
                 Text(
                   info,
                   style: TextStyle(
