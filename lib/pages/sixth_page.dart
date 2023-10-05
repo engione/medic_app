@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:medic_app/pages/seventh_page.dart';
+import 'package:medic_app/widget/button.dart';
 import 'package:medic_app/widget/button_text.dart';
 import 'package:medic_app/widget/circle.dart';
 import 'package:medic_app/widget/circle_button.dart';
@@ -107,6 +109,14 @@ class SixthPage extends StatelessWidget {
                           ),
                         )
                       ],
+                    ),
+                    Button(
+                      txt: 'next',
+                      page: (context) => SeventhPage(),
+                      width: 0.1,
+                      height: 0.035, 
+                      backgroundColor: Colors.blue, 
+                      colortxt: Colors.white
                     )
                   ],
                 )
