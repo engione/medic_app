@@ -7,9 +7,11 @@
 <h3>Четвертый экран</h3>
 <img width="248" alt="image" src="https://github.com/engione/medic_app/assets/134282838/4f89b925-25e2-4677-8497-9ec6c30ab0ed">
 <h3>Пятый экран</h3>
-<img width="242" alt="image" src="https://github.com/engione/medic_app/assets/134282838/3732d6a7-3075-4737-b382-c76ea3880341">
+<img width="254" alt="image" src="https://github.com/engione/medic_app/assets/134282838/598a42ae-33a7-4f6c-a0b3-521d937289c1">
 <h3>Шестой экран</h3>
 <img width="246" alt="image" src="https://github.com/engione/medic_app/assets/134282838/9b735eb1-6cde-4227-961b-66c12d8f434f">
+<h3>Седьмой экран</h3>
+<img width="249" alt="image" src="https://github.com/engione/medic_app/assets/134282838/a127d8c5-76db-4ece-89e7-2cdf02ca8036">
 
 
 
